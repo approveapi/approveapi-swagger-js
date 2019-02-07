@@ -1,0 +1,21 @@
+{
+  "name": "approveapi-swagger-js",
+  "version": "1",
+  "description": "The_simple_API_to_request_a_users_approval_on_anything_via_email__sms_",
+  "license": "Unlicense",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --recursive"
+  },
+  "browser": {
+    "fs": false
+  },
+  "dependencies": {
+    "superagent": "3.7.0"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4",
+    "sinon": "1.17.3",
+    "expect.js": "~0.3.1"
+  }
+}
